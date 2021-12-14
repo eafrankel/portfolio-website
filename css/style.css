@@ -87,3 +87,13 @@ a:focus {
 
 .button.contact:hover {background-color: #CBC2D3; color: #093DBD
 }
+
+#button-a {display: inline-block;
+background-color: #FC652A;
+color: #ffffff;
+font-weight: 400;
+padding: 10px;
+border-radius: 3px;
+border-bottom: 2px solid#F5F6F8;
+transition: 0.2s opacity;
+}
