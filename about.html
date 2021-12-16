@@ -9,69 +9,73 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <header>
+  <header class="container">
     <div>
       <picture>
         <source srcset="img/general/logo_1x.png" media="(max-width:767px)">
-        <img src="img/general/logo_1x.png" alt="Logo">
+        <img src="img/general/logo_1x.png" alt="Logo" class="logo">
       </picture>
       <nav>
         <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html" id="menu-1">Work</a></li>
+          <li><a href="about.html" id="menu-2">About</a></li>
+          <li><a href="#contact" id="menu-3">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <div>
-      <div>
-        <h1> About Emma </h1>
-      </div>
-    </div>
-    <div>
-      <div>
-        <picture>
-          <source srcset="img/general/Portrait_1x.jpg" media="(max-width:767px)">
-          <img src="img/general/Portrait_1x.jpg" alt="Portrait">
-        </picture>
+    <div id="hero">
+      <div class="container">
+        <div>
+          <h1> About Emma </h1>
+        </div>
         <div>
           <div>
-            <h2> My Story </h2>
-            <p>My name is Emma Frankel, I graduated from The George Washington University in 2017 with a BFA in Interior Architecture and Design. For the past four years I have worked at an interior design firm with a focus on high-end residential
-              design. During my time there I was able to hone my skills solving unique design problems and working with some amazing clients.
-              While I loved my time working as an interior designer I found myself growing frustrated with the overall outdated nature of the industry and wanted to make a change. I started looking more into UX design and it felt like the perfect
-              fit. As I began studying UX I realized how similar it was to interior architecture, and while the final product may be different, the design process follows the same patterns.
-              When I’m not designing I love to spending time in the kitchen cooking and baking, a relaxing, creative outlet with a great reward at the end! Once all the dishes are done you can find me crocheting, reading, enjoying the outdoors, or
-              attempting to solve a crossword puzzle. </p>
-            <a href="files/EFrankel_Resume.pdf" class="button" download> Download My Resume </a>
-          </div>
-          <div>
-            <h2> Skills & Tools </h2>
+            <picture>
+              <source srcset="img/general/Portrait_1x.jpg" media="(max-width:767px)">
+              <img src="img/general/Portrait_1x.jpg" alt="Portrait">
+            </picture>
             <div>
-              <h3> Relevant Skills </h3>
-              <ul>
-                <li> User Research </li>
-                <li> Develop user personas and user flows </li>
-                <li> Low, mid, and high-fidelity wireframes </li>
-                <li> Prototyping </li>
-                <li> Frontend Development </li>
-              </ul>
-            </div>
-            <div>
-              <h3> Tools </h3>
-              <ul>
-                <li> Adobe XD, InDesign, Photoshop, and Illustrator </li>
-                <li> Marvel </li>
-                <li> Figma </li>
-                <li> Balsamiq </li>
-              </ul>
+              <div>
+                <h2> My Story </h2>
+                <p>My name is Emma Frankel, I graduated from The George Washington University in 2017 with a BFA in Interior Architecture and Design. For the past four years I have worked at an interior design firm with a focus on high-end
+                  residential
+                  design. During my time there I was able to hone my skills solving unique design problems and working with some amazing clients.
+                  While I loved my time working as an interior designer I found myself growing frustrated with the overall outdated nature of the industry and wanted to make a change. I started looking more into UX design and it felt like the perfect
+                  fit. As I began studying UX I realized how similar it was to interior architecture, and while the final product may be different, the design process follows the same patterns.
+                  When I’m not designing I love to spending time in the kitchen cooking and baking, a relaxing, creative outlet with a great reward at the end! Once all the dishes are done you can find me crocheting, reading, enjoying the outdoors,
+                  or
+                  attempting to solve a crossword puzzle. </p>
+                <a href="files/EFrankel_Resume.pdf" class="button" download> Download My Resume </a>
+              </div>
+              <div>
+                <h2> Skills & Tools </h2>
+                <div>
+                  <h3> Relevant Skills </h3>
+                  <ul>
+                    <li> User Research </li>
+                    <li> Develop user personas and user flows </li>
+                    <li> Low, mid, and high-fidelity wireframes </li>
+                    <li> Prototyping </li>
+                    <li> Frontend Development </li>
+                  </ul>
+                </div>
+                <div>
+                  <h3> Tools </h3>
+                  <ul>
+                    <li> Adobe XD, InDesign, Photoshop, and Illustrator </li>
+                    <li> Marvel </li>
+                    <li> Figma </li>
+                    <li> Balsamiq </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -80,13 +84,13 @@
 
   </main>
   <footer id="contact">
-    <div>
+    <div class="container">
       <h2> Let's Connect </h2>
       <div>
         <a href="mailto:emmaavafrankel@gmail.com" class="button contact">Email Me</a>
       </div>
       <div>
-        <ul>
+        <ul style="list-style-type:none">
           <li><a href="https://www.linkedin.com/in/emma-frankel/" target="_blank">
               <svg height="67px" id="Layer_1" style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="67px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <path

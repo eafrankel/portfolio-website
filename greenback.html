@@ -9,151 +9,153 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
   <header>
-    <div>
+    <div class="container">
       <picture>
         <source srcset="img/greenback/logo_1x.png" media="(max-width:767px)">
-        <img src="img/general/logo_1x.png" alt="Logo">
+        <img src="img/general/logo_1x.png" alt="Logo" class="logo">
       </picture>
       <nav>
         <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html" id="menu-1">Work</a></li>
+          <li><a href="about.html" id="menu-2">About</a></li>
+          <li><a href="#contact" id="menu-3">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <div>
+    <div id="hero">
+      <div class="container">
+        <div>
+          <h1> Greenback </h1>
+          <picture>
+            <source srcset="img/greenback/greenback_screens_1x.png" media="(max-width:767px)">
+            <img src="img/greenback/greenback_screens_1x.png" alt="Greenback Computer Screens">
+          </picture>
+        </div>
       <div>
-        <h1> Greenback </h1>
-        <picture>
-          <source srcset="img/greenback/greenback_screens_1x.png" media="(max-width:767px)">
-          <img src="img/greenback/greenback_screens_1x.png" alt="Greenback Computer Screens">
-        </picture>
+        <div>
+          <div>
+            <h2> About </h2>
+            <p> Greenback is a money transfer app with a focus on charity. With the app users are able to send, receive, and donate money all in the same place.
+              Greenback aims to make donating to charity more accessible to those who don’t know where to start with donating and can be used to donate any amount of money, big or small. </p>
+            <h3> Problem Statement </h3>
+            <p> Greenback users need a way to make donating to charities easier and more accessible we will know this to be true when users donating regularly. </p>
+          </div>
+          <div>
+            <h2> Research </h2>
+            <p> I began researching my potential users through surveys and user interviews to gain insight into how people send money and donate. </p>
+            <h3> Survey </h3>
+            <p> I surveyed 19 people regarding their money sending and donating habits. Here is the breakdown in responses from key questions. </p>
+            <picture>
+              <source srcset="img/greenback/survey_graphs_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/survey_graphs_1x.png" alt="Survey Graphs">
+            </picture>
+            <h3> User Interviews </h3>
+            <p> After collecting initial survey information I interviewed 3 people to dig deeper into their habits. Here are some of the main insights I gathered. </p>
+            <ul>
+              <li> People want a streamlined process of sending money so it can be done quickly. </li>
+              <li> People do like to donate money regularly but often like to have freedom to donate to different organizations. </li>
+              <li> Having the option to round up your payment to donate to charity would be a great option to have. </li>
+              <li> Being able to learn more about an organization before donating is a good way to make people feel confident in their donation. </li>
+            </ul>
+          </div>
+          <div>
+            <h2> Ideation </h2>
+            <p> After gathering information on my potential users I started organization the structure and flow of my product. </p>
+            <h3> User Flows </h3>
+            <p> Send Money & Round Up to Charity</p>
+            <picture>
+              <source srcset="img/greenback/send_money_flow_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/send_money_flow_1x.png" alt="Sending Money User Flow">
+            </picture>
+            <p> Explore Charities & Donate </p>
+            <picture>
+              <source srcset="img/greenback/donation_user_flow_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/donation_user_flow_1x.png" alt="Donating Money User Flow">
+            </picture>
+            <h3> Site Map </h3>
+            <p> With my user flows in mind I began to layout the structure of my product. </p>
+            <picture>
+              <source srcset="img/greenback/site_map_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/site_map_1x.png" alt="Site Map">
+            </picture>
+          </div>
+          <div>
+            <h2> Low and Mid-Fidelity Wireframes </h2>
+            <p> After honing in on my users and their goals I began creating wireframes. I started with low-fidelity sketches to allow me to create many different mockups quickly before landing on my initial layouts and then translated them into the
+              first iteration of mid-fidelity wireframes. </p>
+            <h3>Sending Money </h3>
+            <picture>
+              <source srcset="img/greenback/send_money_wireframes_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/send_money_wireframes_1x.png" alt="Send Money Wireframes">
+            </picture>
+            <h3> Explore Charities </h3>
+            <picture>
+              <source srcset="img/greenback/explore_charities_wireframes_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/explore_charities_wireframes_1x.png" alt="Explore Charities Wireframes">
+            </picture>
+          </div>
+          <div>
+            <h2> Iteration </h2>
+            <p> I began user testing some of my designs to see how users responded to the designs and where improvements needed to be made. </p>
+            <h3> Explore </h3>
+            <p> In Version 1 users felt like the photos felt cramped in the space so I updated it to fill the whole box for each category. I was pleased with the improvements on this version but found upon additional testing that the text was hard to
+              read and needed better contrast. That is how I landed on my final iteration. </p>
+            <picture>
+              <source srcset="img/greenback/explore_iterations_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/explore_iterations_1x.png" alt="Explore Iterations">
+            </picture>
+            <h3> Donate </h3>
+            <p> Users felt that the input fields on the donation screen were too tight, I updated the screen so the input fields that span the width of the screen for a much cleaner look. </p>
+            <picture>
+              <source srcset="img/greenback/donate_iterations_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/donate_iterations_1x.png" alt="Donate Iterations">
+            </picture>
+          </div>
+          <div>
+            <h2> Final Design </h2>
+            <p> After much research, testing, and many iterations I landed on my final design. </p>
+            <h3> Onboarding </h3>
+            <picture>
+              <source srcset="img/greenback/onboarding_final_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/onboarding_final_1x.png" alt="Onboarding Final Designs">
+            </picture>
+            <h3> Send Money </h3>
+            <picture>
+              <source srcset="img/greenback/send_money_final_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/send_money_final_1x.png" alt="Send Money Final Designs">
+            </picture>
+            <h3> Explore Charities & Donate </h3>
+            <picture>
+              <source srcset="img/greenback/explore_charities_final_1x.png" media="(max-width:767px)">
+              <img src="img/greenback/explore_charities_final_1x.png" alt="Explore Charities Final Designs">
+            </picture>
+          </div>
+          <div>
+            <h2> Prototype </h2>
+            <a href="https://xd.adobe.com/view/9f9235c0-7c6b-4b37-a50e-cb13a0770b97-cac1/" target="_blank"> Click here to launch interactive prototype </a>
+          </div>
+        </div>
       </div>
     </div>
-    <div>
-      <div>
-        <div>
-          <h2> About </h2>
-          <p> Greenback is a money transfer app with a focus on charity. With the app users are able to send, receive, and donate money all in the same place.
-            Greenback aims to make donating to charity more accessible to those who don’t know where to start with donating and can be used to donate any amount of money, big or small. </p>
-          <h3> Problem Statement </h3>
-          <p> Greenback users need a way to make donating to charities easier and more accessible we will know this to be true when users donating regularly. </p>
-        </div>
-        <div>
-          <h2> Research </h2>
-          <p> I began researching my potential users through surveys and user interviews to gain insight into how people send money and donate. </p>
-          <h3> Survey </h3>
-          <p> I surveyed 19 people regarding their money sending and donating habits. Here is the breakdown in responses from key questions. </p>
-          <picture>
-            <source srcset="img/greenback/survey_graphs_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/survey_graphs_1x.png" alt="Survey Graphs">
-          </picture>
-          <h3> User Interviews </h3>
-          <p> After collecting initial survey information I interviewed 3 people to dig deeper into their habits. Here are some of the main insights I gathered. </p>
-          <ul>
-            <li> People want a streamlined process of sending money so it can be done quickly. </li>
-            <li> People do like to donate money regularly but often like to have freedom to donate to different organizations. </li>
-            <li> Having the option to round up your payment to donate to charity would be a great option to have. </li>
-            <li> Being able to learn more about an organization before donating is a good way to make people feel confident in their donation. </li>
-          </ul>
-        </div>
-        <div>
-          <h2> Ideation </h2>
-          <p> After gathering information on my potential users I started organization the structure and flow of my product. </p>
-          <h3> User Flows </h3>
-          <p> Send Money & Round Up to Charity</p>
-          <picture>
-            <source srcset="img/greenback/send_money_flow_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/send_money_flow_1x.png" alt="Sending Money User Flow">
-          </picture>
-          <p> Explore Charities & Donate </p>
-          <picture>
-            <source srcset="img/greenback/donation_user_flow_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/donation_user_flow_1x.png" alt="Donating Money User Flow">
-          </picture>
-          <h3> Site Map </h3>
-          <p> With my user flows in mind I began to layout the structure of my product. </p>
-          <picture>
-            <source srcset="img/greenback/site_map_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/site_map_1x.png" alt="Site Map">
-          </picture>
-        </div>
-        <div>
-          <h2> Low and Mid-Fidelity Wireframes </h2>
-          <p> After honing in on my users and their goals I began creating wireframes. I started with low-fidelity sketches to allow me to create many different mockups quickly before landing on my initial layouts and then translated them into the
-            first iteration of mid-fidelity wireframes. </p>
-          <h3>Sending Money </h3>
-          <picture>
-            <source srcset="img/greenback/send_money_wireframes_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/send_money_wireframes_1x.png" alt="Send Money Wireframes">
-          </picture>
-          <h3> Explore Charities </h3>
-          <picture>
-            <source srcset="img/greenback/explore_charities_wireframes_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/explore_charities_wireframes_1x.png" alt="Explore Charities Wireframes">
-          </picture>
-        </div>
-        <div>
-          <h2> Iteration </h2>
-          <p> I began user testing some of my designs to see how users responded to the designs and where improvements needed to be made. </p>
-          <h3> Explore </h3>
-          <p> In Version 1 users felt like the photos felt cramped in the space so I updated it to fill the whole box for each category. I was pleased with the improvements on this version but found upon additional testing that the text was hard to
-            read and needed better contrast. That is how I landed on my final iteration. </p>
-          <picture>
-            <source srcset="img/greenback/explore_iterations_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/explore_iterations_1x.png" alt="Explore Iterations">
-          </picture>
-          <h3> Donate </h3>
-          <p> Users felt that the input fields on the donation screen were too tight, I updated the screen so the input fields that span the width of the screen for a much cleaner look. </p>
-          <picture>
-            <source srcset="img/greenback/donate_iterations_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/donate_iterations_1x.png" alt="Donate Iterations">
-          </picture>
-        </div>
-        <div>
-          <h2> Final Design </h2>
-          <p> After much research, testing, and many iterations I landed on my final design. </p>
-          <h3> Onboarding </h3>
-          <picture>
-            <source srcset="img/greenback/onboarding_final_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/onboarding_final_1x.png" alt="Onboarding Final Designs">
-          </picture>
-          <h3> Send Money </h3>
-          <picture>
-            <source srcset="img/greenback/send_money_final_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/send_money_final_1x.png" alt="Send Money Final Designs">
-          </picture>
-          <h3> Explore Charities & Donate </h3>
-          <picture>
-            <source srcset="img/greenback/explore_charities_final_1x.png" media="(max-width:767px)">
-            <img src="img/greenback/explore_charities_final_1x.png" alt="Explore Charities Final Designs">
-          </picture>
-        </div>
-        <div>
-          <h2> Prototype </h2>
-          <a href="https://xd.adobe.com/view/9f9235c0-7c6b-4b37-a50e-cb13a0770b97-cac1/" target="_blank"> Click here to launch interactive prototype </a>
-        </div>
-      </div>
-    </div>
+  </div>
   </main>
 
   <footer id="contact">
-    <div>
+    <div class="container">
       <h2> Let's Connect </h2>
       <div>
         <a href="mailto:emmaavafrankel@gmail.com" class="button contact">Email Me</a>
       </div>
       <div>
-        <ul>
+        <ul style="list-style-type:none">
           <li><a href="https://www.linkedin.com/in/emma-frankel/" target="_blank">
               <svg height="67px" id="Layer_1" style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="67px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <path
