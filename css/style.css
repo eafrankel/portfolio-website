@@ -76,13 +76,17 @@ a:focus {
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid#fffbf0;
   transition: 0.2s opacity;
+}
+
+a.button {
+  color: #1f1f1f;
 }
 
 .button:hover {
   opacity: 1;
   text-decoration: none;
+  background-color: #fff276;
 }
 
 .button.contact {
@@ -172,4 +176,9 @@ main {
 
 .container{
   max-width: 1200px;
+}
+
+#social {
+  display: flex;
+  list-style-type: none;
 }
