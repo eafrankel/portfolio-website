@@ -39,7 +39,8 @@ h3 {
 
 h4 {
   font-size: 1.35em;
-  font-weight: 400 text-transform: uppercase;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 img {
@@ -107,7 +108,7 @@ a.button {
 header {
   background-color: #1f1f1f;
   padding: 10px;
-  margin-bottom: : 10px;
+  margin-bottom: 10px;
   margin-top: 0px;
   text-align: center;
   position: fixed;
@@ -128,7 +129,7 @@ selector {
 }
 
 .row {
-  margin: 25 px 0;
+  margin: 25px 0;
 }
 
 #work.row {
@@ -184,7 +185,7 @@ main {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 80%;
 }
 
 #social {
@@ -210,6 +211,10 @@ main {
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+
+#skills-tools {
+  text-align: center;
 }
 
 @keyframes color-change {

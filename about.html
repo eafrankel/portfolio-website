@@ -14,17 +14,19 @@
 </head>
 
 <body id="about-page">
-  <header class="container">
-    <div>
-      <picture>
-        <source srcset="img/general/logo_1x.png" media="(max-width:767px)">
-        <img src="img/general/logo_1x.png" alt="Logo" class="logo">
-      </picture>
+  <header>
+    <div class="container">
+      <a href="index.html">
+        <picture>
+          <source srcset="img/general/logo_1x.png" media="(max-width:767px)">
+          <img src="img/general/logo_1x.png" alt="Logo" class="logo">
+        </picture>
+      </a>
       <nav>
-        <ul>
-          <li><a href="index.html" id="menu-1">Work</a></li>
-          <li><a href="about.html" id="menu-2">About</a></li>
-          <li><a href="#contact" id="menu-3">Contact</a></li>
+        <ul class="navigation">
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -37,57 +39,59 @@
         </div>
         <div>
           <div>
-            <picture>
-              <source srcset="img/general/Portrait_1x.jpg" media="(max-width:767px)">
-              <img src="img/general/Portrait_1x.jpg" alt="Portrait">
-            </picture>
-            <div id="skills">
-              <div class="row">
+            <div class="row">
+              <div class="column col-md-6 col-lg-7 col-xl-4">
+                <picture>
+                  <source srcset="img/general/Portrait_1x.jpg" media="(max-width:767px)">
+                  <img src="img/general/Portrait_1x.jpg" alt="Portrait">
+                </picture>
+              </div>
+              <div id="skills">
                 <div class="column col-md-6 col-lg-7 col-xl-4">
-                <h2> My Story </h2>
-                <p> My name is Emma Frankel, I graduated from The George Washington University in 2017 with a BFA in Interior Architecture and Design. For the past four years I have worked at an interior design firm with a focus on high-end
-                  residential
-                  design. During my time there I was able to hone my skills solving unique design problems and working with some amazing clients.
-                  While I loved my time working as an interior designer I found myself growing frustrated with the overall outdated nature of the industry and wanted to make a change. I started looking more into UX design and it felt like the perfect
-                  fit. As I began studying UX I realized how similar it was to interior architecture, and while the final product may be different, the design process follows the same patterns.
-                  When I’m not designing I love to spending time in the kitchen cooking and baking, a relaxing, creative outlet with a great reward at the end! Once all the dishes are done you can find me crocheting, reading, enjoying the outdoors,
-                  or
-                  attempting to solve a crossword puzzle. </p>
-                <a href="files/EFrankel_Resume.pdf" class="button" download target="_blank"> Download My Resume </a>
+                  <h2> My Story </h2>
+                  <p> My name is Emma Frankel, I graduated from The George Washington University in 2017 with a BFA in Interior Architecture and Design. For the past four years I have worked at an interior design firm with a focus on high-end
+                    residential
+                    design. During my time there I was able to hone my skills solving unique design problems and working with some amazing clients.
+                    While I loved my time working as an interior designer I found myself growing frustrated with the overall outdated nature of the industry and wanted to make a change. I started looking more into UX design and it felt like the
+                    perfect
+                    fit. As I began studying UX I realized how similar it was to interior architecture, and while the final product may be different, the design process follows the same patterns.
+                    When I’m not designing I love to spending time in the kitchen cooking and baking, a relaxing, creative outlet with a great reward at the end! Once all the dishes are done you can find me crocheting, reading, enjoying the outdoors,
+                    or
+                    attempting to solve a crossword puzzle. </p>
+                  <a href="files/EFrankel_Resume.pdf" class="button" download target="_blank"> Download My Resume </a>
+                </div>
+              <h2 id="skills-tools"> Skills & Tools </h2>
+              <div class="row">
+                <div class="column col-md-6 col-lg-5 col-xl-4">
+                  <h3> Relevant Skills </h3>
+                  <ul style="list-style-type:none">
+                    <li> User Research </li>
+                    <li> Develop user personas and user flows </li>
+                    <li> Low, mid, and high-fidelity wireframes </li>
+                    <li> Prototyping </li>
+                    <li> Frontend Development </li>
+                  </ul>
+                </div>
               </div>
             </div>
-              <div id="skills">
-                <h2> Skills & Tools </h2>
-                <div class="row">
-                  <div class="column col-md-6 col-lg-5 col-xl-4">
-                    <h3> Relevant Skills </h3>
-                    <ul style="list-style-type:none">
-                      <li> User Research </li>
-                      <li> Develop user personas and user flows </li>
-                      <li> Low, mid, and high-fidelity wireframes </li>
-                      <li> Prototyping </li>
-                      <li> Frontend Development </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <h3> Tools </h3>
-                    <ul style="list-style-type:none">
-                      <li> Adobe XD, InDesign, Photoshop, and Illustrator </li>
-                      <li> Marvel </li>
-                      <li> Figma </li>
-                      <li> Balsamiq </li>
-                    </ul>
-                  </div>
-                </div>
+
+              <div class="column col-md-6 col-lg-5 col-xl-4">
+                <h3> Tools </h3>
+                <ul style="list-style-type:none">
+                  <li> Adobe XD </li>
+                  <li> InDesign </li>
+                  <li> Photoshop </li>
+                  <li> Illustrator </li>
+                  <li> Marvel </li>
+                  <li> Figma </li>
+                  <li> Balsamiq </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </main>
   <footer id="contact">
     <div class="container">
@@ -122,6 +126,7 @@
     </div>
     <p> Copyright Emma Frankel 2021-2022 </p>
   </footer>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
