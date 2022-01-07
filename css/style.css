@@ -110,7 +110,6 @@ header {
   padding: 10px;
   margin-bottom: 10px;
   margin-top: 0px;
-  text-align: center;
   position: fixed;
   width: 100%;
   display: block;
@@ -137,13 +136,17 @@ selector {
   border-bottom: 1px solid #fffbf0;
 }
 
+#intro {
+  padding-bottom: 10px;
+}
+
 #hero h1 {
   margin: 0;
   padding: 0.67em 0;
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 nav>ul {
@@ -168,12 +171,16 @@ nav>ul>li>a:active {
   color: #fff276;
 }
 
+ul {
+  padding: 0px;
+}
+
 #hero {
   background-color: #1f1f1f;
   padding: 20px 0;
   display: inline-block;
   width: auto;
-  text-align: center;
+  text-align: left;
 }
 
 #hero span {
@@ -184,13 +191,10 @@ main {
   padding-top: 99px;
 }
 
-.container {
-  max-width: 80%;
-}
-
 #social {
   display: flex;
   list-style-type: none;
+  width: 65px;
 }
 
 #about-page h3 {
@@ -201,8 +205,12 @@ main {
   text-align: left;
 }
 
+#copyright {
+  font-size: 12px;
+}
+
 .container {
-  max-width: 1200px;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -211,46 +219,6 @@ main {
   width: 100%;
   max-width: 100%;
   height: auto;
-}
-
-#skills-tools {
-  text-align: center;
-}
-
-@keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
-}
-
-.sun {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
-}
-
-.cloud-front {
-  animation-duration: 30s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 /*medium screens */
@@ -270,19 +238,25 @@ main {
     width: 50%;
   }
 
+  [class*="col-"] {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    display: block;
+  }
 
-[class*="col-"] {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  display: block;
-}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+  .logo {
+    max-width: 250px;
+  }
+
+
+
 }
 
 /*large screens*/
@@ -291,10 +265,12 @@ main {
     width: 41.66%;
     float: right;
   }
+
   .col-lg-7 {
     width: 58.33%;
     text-align: unset;
   }
+
 }
 
 /*x-large screens*/
@@ -303,6 +279,7 @@ main {
     width: 41.66%;
     float: right;
   }
+
   .col-lg-7 {
     width: 58.33%;
     text-align: unset;
