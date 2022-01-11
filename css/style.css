@@ -83,12 +83,14 @@ a:focus {
   border-radius: 3px;
   transition: 0.2s opacity;
   margin-bottom: 30px;
+  margin-top: 10px;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
 
 a.button {
   color: #1f1f1f;
+  margin-top: 20px;
 }
 
 .button:hover {
@@ -109,14 +111,20 @@ a.button {
   border: 2px solid#fff276;
 }
 
+#contact {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 header {
   background-color: #1f1f1f;
   margin-bottom: 10px;
-  margin-top: 0px;
   position: fixed;
   width: 100%;
   display: block;
   padding: 10px 0 4px;
+  margin-top: 0px;
 }
 
 selector {
@@ -142,6 +150,7 @@ selector {
 
 #intro {
   padding-bottom: 10px;
+  text-transform: capitalize;
 }
 
 #hero h1 {
@@ -180,7 +189,15 @@ ul {
   padding: 0px;
 }
 
-#hero {
+#hero-work {
+  background-color: #1f1f1f;
+  padding: 20px 0;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+}
+
+#hero-about {
   background-color: #1f1f1f;
   padding: 20px 0;
   display: inline-block;
@@ -188,19 +205,31 @@ ul {
   text-align: left;
 }
 
+#hero-greenback {
+  background-color: #1f1f1f;
+  padding: 20px 0;
+  display: inline-block;
+  width: auto;
+  text-align: left;
+}
+
+
 #hero span {
   display: block;
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 85px;
 }
 
 #social {
   display: flex;
   list-style-type: none;
-  width: 72px;
+  width: 85px;
+  justify-content: center;
+  margin: 0 auto;
 }
+
 
 #about-page h3 {
   margin-top: 0;
@@ -208,6 +237,7 @@ main {
 
 #skills {
   text-align: left;
+  margin: 0px;
 }
 
 #copyright {
@@ -258,6 +288,12 @@ main {
   padding: 0 0 10px;
 }
 
+#my-work {
+  text-align: center;
+}
+
+
+
 /*medium screens */
 @media only screen and (min-width: 640px) {
   header {
@@ -300,12 +336,14 @@ main {
   margin: 1em 0;
 }
 
+.footer {
+  text-align: center;
 }
 
 /*large screens*/
 @media only screen and (min-width: 1024px) {
   .col-lg-5 {
-    width: 41.66%;
+
     float: right;
   }
 
