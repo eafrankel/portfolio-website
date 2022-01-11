@@ -49,11 +49,13 @@ img {
 
 a {
   color: #fff276;
+  background-color: #1f1f1f;
   text-decoration: none;
 }
 
 a:hover {
   color: #fff276;
+  background-color: #1f1f1f;
   text-decoration: underline;
 }
 
@@ -63,10 +65,12 @@ a:visited {
 
 a:active {
   color: #fff276;
+  background-color: #1f1f1f;
 }
 
 a:focus {
   color: #fff276;
+  background-color: #1f1f1f;
   text-decoration: underline;
 }
 
@@ -107,12 +111,12 @@ a.button {
 
 header {
   background-color: #1f1f1f;
-  padding: 10px;
   margin-bottom: 10px;
   margin-top: 0px;
   position: fixed;
   width: 100%;
   display: block;
+  padding: 10px 0 4px;
 }
 
 selector {
@@ -152,6 +156,7 @@ selector {
 nav>ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 nav>ul>li {
@@ -188,7 +193,7 @@ ul {
 }
 
 main {
-  padding-top: 99px;
+  padding-top: 56px;
 }
 
 #social {
@@ -219,6 +224,38 @@ main {
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #fff276;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 /*medium screens */
@@ -255,7 +292,13 @@ main {
     max-width: 250px;
   }
 
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
 
+  nav > ul {
+  margin: 1em 0;
+}
 
 }
 
@@ -271,6 +314,9 @@ main {
     text-align: unset;
   }
 
+  .navtoggle li:last-child {
+    display: none;
+  }
 }
 
 /*x-large screens*/
@@ -283,5 +329,8 @@ main {
   .col-lg-7 {
     width: 58.33%;
     text-align: unset;
+  }
+  .navtoggle li:last-child {
+    display: none;
   }
 }
