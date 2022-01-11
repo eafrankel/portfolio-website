@@ -299,6 +299,7 @@ main {
   header {
     text-align: unset;
     padding: 20px 0 13px;
+    margin-top: 0px;
   }
 
   nav {
