@@ -292,6 +292,24 @@ main {
   text-align: center;
 }
 
+.navtoggle li:not(:last-child) {
+display: inline-block;
+}
+.navtoggle li:last-child {
+display: none;
+}
+
+@media only screen and (max-width: 640px){
+.navtoggle li:not(:last-child) {
+display: none;
+}
+.navtoggle li:last-child {
+display: inline-block;
+}
+.navtoggle.responsive li{
+display: block;
+}
+}
 
 
 /*medium screens */
@@ -353,9 +371,6 @@ main {
     text-align: unset;
   }
 
-  .navtoggle li:last-child {
-    display: none;
-  }
 }
 
 /*x-large screens*/
@@ -369,7 +384,5 @@ main {
     width: 58.33%;
     text-align: unset;
   }
-  .navtoggle li:last-child {
-    display: none;
-  }
+
 }
