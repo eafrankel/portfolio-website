@@ -300,17 +300,6 @@ main {
   display: none;
 }
 
-@media only screen and (max-width: 640px){
-.navtoggle li:not(:last-child) {
-display: none;
-}
-.navtoggle li:last-child {
-display: inline-block;
-}
-.navtoggle.responsive li{
-display: block;
-}
-}
 
 
 @media only screen and (max-width: 640px) {
