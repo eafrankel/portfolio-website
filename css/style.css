@@ -213,7 +213,6 @@ ul {
   text-align: left;
 }
 
-
 #hero span {
   display: block;
 }
@@ -229,7 +228,6 @@ main {
   justify-content: center;
   margin: 0 auto;
 }
-
 
 #about-page h3 {
   margin-top: 0;
@@ -271,20 +269,22 @@ main {
   font-size: 20px;
   padding-right: 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
 }
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
   border-top: 1px solid #fff276;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -292,6 +292,7 @@ main {
   text-align: center;
 }
 
+<<<<<<< Updated upstream
 @media only screen and (max-width: 640px){
 .navtoggle li:not(:last-child) {
 display: none;
@@ -302,6 +303,28 @@ display: inline-block;
 .navtoggle.responsive li{
 display: block;
 }
+=======
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+
+  .navtoggle li:last-child {
+    display: inline-block;
+  }
+
+  .navtoggle.responsive li {
+    display: block;
+  }
+>>>>>>> Stashed changes
 }
 
 /*medium screens */
@@ -339,12 +362,9 @@ display: block;
     max-width: 250px;
   }
 
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
+  nav>ul {
+    margin: 1em 0;
   }
-
-  nav > ul {
-  margin: 1em 0;
 }
 
 .footer {
@@ -354,7 +374,6 @@ display: block;
 /*large screens*/
 @media only screen and (min-width: 1024px) {
   .col-lg-5 {
-
     float: right;
   }
 
@@ -362,7 +381,10 @@ display: block;
     width: 58.33%;
     text-align: unset;
   }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 }
 
 /*x-large screens*/
@@ -376,5 +398,8 @@ display: block;
     width: 58.33%;
     text-align: unset;
   }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 }
