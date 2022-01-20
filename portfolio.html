@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Greenback</title>
+  <link href="img/general/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <script src="https://kit.fontawesome.com/e6aa32bfe8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html">
+          <picture>
+            <source srcset="img/general/logo_2x.jpg" media="(max-width:767px)">
+            <img src="img/general/logo_2x.jpg" alt="Logo" class="logo">
+          </picture>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="index.html" id="menu-1">Work</a></li>
+            <li><a href="about.html" id="menu-2">About</a></li>
+            <li><a href="#contact" id="menu-3">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()" id="hamburger"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="hero-portfolio">
+      <div class="container">
+        <div>
+          <h1> </h1>
+          <picture>
+            <source srcset="img/portfolio/portfolio_banner_2x.jpg" media="(max-width:767px)">
+            <img src="img/portfolio/portfolio_banner_2x.jpg" alt="Portfolio Banner">
+          </picture>
+        </div>
+        <div>
+          <div>
+            <div>
+              <picture>
+                <source srcset="img/portfolio/overview_banner.jpg" media="(max-width:767px)">
+                <img src="img/portfolio/overview_banner.jpg" alt="Overview Header">
+              </picture>
+              <h3> About </h3>
+              <p> This website was created as a portfolio for my UX and frontend design work created in my CareerFoundry course. I wanted to create something that was simple and sleek and could serve as the backdrop to display my work. You’ve already
+                been experiencing this project first hand since you’ve reached this page but here is a behind the scenes look at my process. </p>
+              <h3> Tools Used </h3>
+              <ul>
+                <li> Atom </li>
+                <li> GitHub </li>
+                <li> W3C Markup Validation Service </li>
+                <li> Adobe Illustrator </li>
+              </ul>
+              <h3> The Challenge </h3>
+              <p> Before beginning the the CareerFoundry Frontend Development for Designers specialization I had no prior experience with coding. While I knew it would be a challenge I wanted to go out of my comfort zone and learn because I know it
+                is a useful skill to have and will help me become a stronger UX designer. </p>
+              <h3> Goals </h3>
+              <p> The goal was to learn the basics of coding and create a portfolio to showcase my design work.. Using the skills learned in my UX design course I wanted to create something I could share with industry professionals and potential
+                employers. </p>
+              <picture>
+                <source srcset="img/portfolio/process_banner.jpg" media="(max-width:767px)">
+                <img src="img/portfolio/process_banner.jpg" alt="Process Header">
+              </picture>
+              <p>I began my project by creating wireframes and writing all of the copy that would be featured in my portfolio. By starting with the content I was able to design my website around my work. With all of my content prepared I was able to
+                begin creating the website, starting with the HTML. </p>
+              <h3> Wireframes </h3>
+              <source srcset="img/portfolio/wireframes.jpg" media="(max-width:767px)">
+              <img src="img/portfolio/wireframes.jpg" alt="Wireframes">
+              <h3> HTML </h3>
+              <p> I began constructing the framework for my website using HTML. I started learning how each tag affected the page created and how to build the basis of my portfolio site. Here is a snippit of the &lt; header &gt section of my HTML
+                when getting started. </p>
+              <source srcset="img/portfolio/html_example.png" media="(max-width:767px)">
+              <img src="img/portfolio/html_example.png" alt="HTML Header">
+              <h3> CSS </h3>
+              <p> After the base of my portfolio site was created I was ready to add in some style. I started developing my visual identity by selecting fonts, a color scheme, and creating a logo.
+                This porfolio is designed to serve as a backdrop for my past and future projects and I didn't want it to clash or compete with the work I am displaying.I also wanted my portfolio to reflect my personal style so a dark theme with a
+                clean, sans serif font felt the perfect balance. </p>
+              <source srcset="img/portfolio/style_guide.jpg" media="(max-width:767px)">
+              <img src="img/portfolio/style_guide.jpg" alt="Style Guide">
+              <p> With my visual identity in place I was ready to begin work on bringing it to life with CSS. Here is a look at the CSS that created the visuals for the buttons seen throughout and a look at it in action. </p>
+              <div class="row">
+                <div class="col-md-6 col-lg-8 col-xl-4">
+                  <source srcset="img/portfolio/css_button.png" media="(max-width:767px)">
+                  <img src="img/portfolio/css_button.png" alt="Button CSS">
+                </div>
+                <div class="col-md-6 col-lg-8 col-xl-4">
+                  <source srcset="img/portfolio/button2.gif" media="(max-width:767px)">
+                  <img src="img/portfolio/button2.gif" alt="Button GIF">
+                </div>
+              </div>
+              <h2> JavaScript </h2>
+              <p> The final element to bring in before user testing was JavaScript. Using JS I added a drop down hamburger menu that would be used in the mobile version of my website so the header wouldn't feel so cluttered.  </p>
+              <div class="row">
+                <div class="col-md-6 col-lg-8 col-xl-4">
+                  <source srcset="img/portfolio/js_code.png" media="(max-width:767px)">
+                  <img src="img/portfolio/js_code.png" alt="JavaScript Code">
+                </div>
+                <div class="col-md-6 col-lg-8 col-xl-4">
+                  <source srcset="img/portfolio/js_gif.gif" media="(max-width:767px)">
+                  <img src="img/portfolio/js_gif.gif" alt="JaveScript GIF">
+                </div>
+              </div>
+              <h3> Usability Testing </h3>
+              <p> After creating my MVP I was ready to test the product to see what works and what needs improvement. I conducted my test with 5 people asked them to complete a series of tasks through my website. Here are some of the key pieces of feedback I received, I used the Nielsen Severity Rating Scale to determine the severity.  </p>
+              <picture>
+                <source srcset="img/portfolio/usability_test.png" media="(max-width:767px)">
+                <img src="img/portfolio/usability_test.png" alt="Usability Test Chart">
+              </picture>
+              <picture>
+                <source srcset="img/portfolio/final_banner.jpg" media="(max-width:767px)">
+                <img src="img/portfolio/final_banner.jpg" alt="Final Design Header">
+              </picture>
+              <p> After receiving some great feedback during my usability testing I went back in and made changes to improve my site and finalize my design. </p>
+              <h3> Final Thoughts </h3>
+              <p> This project was challenging and out of my comfort zone but overall I am happy with the final result. I learned the basics of coding and feel like it will help me as I move forward in my design career. This is an ever evolving project that will I will continue to update and grow in the future. For a more in depth view feel free to take a look at my GitHub. </p>
+            </div>
+            <div>
+              <a href="https://GitHub.com/eafrankel/portfolio-website" class="button" target="_blank"> View GitHub </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="contact">
+    <div class="container">
+      <h2> Let's Connect </h2>
+      <div>
+        <a href="mailto:emmaavafrankel@gmail.com" class="button contact">Email Me</a>
+      </div>
+      <div>
+        <ul style="list-style-type:none" id="social">
+          <li><a href="https://www.linkedin.com/in/emma-frankel/" target="_blank">
+              <picture>
+                <source srcset="img/general/linkedin.svg" media="(max-width:50px)">
+                <img src="img/general/linkedin.svg" alt="LinkedIn">
+              </picture>
+            </a>
+          </li>
+          <li><a href="https://www.behance.net/eafrankel" target="_blank">
+              <picture>
+                <source srcset="img/general/linkedin.svg" media="(max-width:50px)">
+                <img src="img/general/behance.svg" alt="Behance">
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p id="copyright"> Copyright Emma Frankel 2022 </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
