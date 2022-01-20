@@ -300,8 +300,6 @@ main {
   display: none;
 }
 
-
-
 @media only screen and (max-width: 640px) {
   .navtoggle li:not(:last-child) {
     display: none;
@@ -371,15 +369,14 @@ main {
     text-align: unset;
   }
 
+  /*x-large screens*/
+  @media only screen and (min-width: 1440px) {
+    .col-lg-5 {
+      width: 41.66%;
+      float: right;
+    }
 
-/*x-large screens*/
-@media only screen and (min-width: 1440px) {
-  .col-lg-5 {
-    width: 41.66%;
-    float: right;
-  }
-
-  .col-lg-7 {
-    width: 58.33%;
-    text-align: unset;
-  }
+    .col-lg-7 {
+      width: 58.33%;
+      text-align: unset;
+    }
